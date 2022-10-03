@@ -1,2 +1,74 @@
 @import url(reset.css);
+@import url(variables.css);
 @import url(common.css);
+
+/* ------------
+    HEADER
+-------------*/
+header{
+    background-color: var(--1st-color);
+    padding: 1.25rem 0;
+    color: #fff;
+}
+
+.main-nav{
+    display: none;
+}
+
+                     /* Desktop */
+@media screen and ( min-width: 992px) {
+    
+    .hamburger-btn{
+        display: none;
+    }
+
+    .main-nav{
+        display: block;
+    }
+}
+
+/* ------------
+    MAIN
+-------------*/
+
+/* -- highlights -- */
+.card-debug{
+    background-color: var(--2nd-color);
+    height: 100px;
+}
+
+.highlights .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+
+                     /* Tablet */
+@media screen and ( min-width: 768px) {
+    
+    .highlights .col{
+        max-width: calc(100% / 3);
+    }
+
+    .highlights .col:first-child{
+        max-width: calc( (100% / 3) * 2);
+    }
+}                     
+/* -- /highlights -- */
+
+/* -- Strategic -- */
+.strategic{
+    background-color: var(--3dr-color);
+}
+
+.strategic .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+
+                     /* Tablet */
+@media screen and ( min-width: 768px){
+    .strategic .col{
+        max-width: 50%;
+    }
+}
+/* -- /Strategic -- */
