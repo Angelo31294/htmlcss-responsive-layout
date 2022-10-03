@@ -109,3 +109,35 @@ header{
     }
 }
 /* -- /Testimonials -- */
+
+/* -- Benefit -- */
+.benefit{
+    background-color: var(--3dr-color);
+}
+
+.title-benefit{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-number{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 1.875rem;
+}
+
+                     /* Tablet */
+@media screen and ( min-width: 768px){
+    .card-number{
+        max-width: 50%;
+    }
+}
+
+                     /* Desktop */
+@media screen and ( min-width: 992px){
+    .card-number{
+        max-width: calc(100% / 3);
+    }
+}
+/* -- /Benefit -- */
