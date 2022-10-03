@@ -141,3 +141,25 @@ header{
     }
 }
 /* -- /Benefit -- */
+
+/* -- About Us -- */
+.description-2{
+    width: 100%;
+}
+
+.description-2 > h3{
+    color: var(--3dr-color);
+    font-size: 1.25rem;
+}
+
+                     /* Tablet */
+@media screen and ( min-width: 768px){
+    .description-2{
+        max-width: 70%;
+    }
+
+    .developer{
+        max-width: 30%;
+    }
+}
+/* -- /About Us -- */
