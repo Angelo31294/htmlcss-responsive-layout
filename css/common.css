@@ -1,0 +1,21 @@
+/* ------------
+    COMMONS
+-------------*/
+.container{
+    max-width: 68.75rem;
+    padding-left: 0 1.25rem;
+    padding-right: 0 1.25rem;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
