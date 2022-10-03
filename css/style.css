@@ -163,3 +163,17 @@ header{
     }
 }
 /* -- /About Us -- */
+
+/* ------------
+    FOOTER
+-------------*/
+.footer-top{
+    background-color: var(--3dr-color);
+    text-align: center;
+}
+
+.footer-bottom{
+    background-color: var(--5th-color);
+    text-align: center;
+    color: #fff;
+}
