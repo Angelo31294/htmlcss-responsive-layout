@@ -110,8 +110,29 @@ header{
     margin: .625rem 0;
 }
 
-                     /* Tablet */
-@media screen and ( min-width: 768px){
+.img1-strategic{
+    max-width: 100%;
+}
+
+.img2-strategic{
+    max-width: 100%;
+}
+
+.img1-strategic > img{
+    max-width: 100%;
+}
+
+.img2-strategic > img{
+    max-width: 100%;
+}
+
+.col-strategic{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Desktop */
+@media screen and ( min-width: 992px){
     .strategic .col{
         max-width: 50%;
     }
@@ -135,8 +156,9 @@ header{
 
 .title-partner > h3{
     color: var(--3dr-color);
-    font-size: 1.25rem;
+    font-size: 2.5rem;
 }
+
                      /* Tablet */
 @media screen and ( min-width: 768px){
     
