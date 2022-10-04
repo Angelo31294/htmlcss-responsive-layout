@@ -21,7 +21,7 @@ header{
     background-color: transparent;
     color: #fff;
     border: none;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
                      /* Desktop */
@@ -41,14 +41,27 @@ header{
 -------------*/
 
 /* -- highlights -- */
-.card-debug{
+.card-highlights{
     background-color: var(--2nd-color);
-    height: 100px;
+    text-align: left;
+    padding: 1.25rem .625rem 0 .625rem;
 }
 
 .highlights .col{
-    width: 100%;
+    max-width: 100%;
     margin: .625rem 0;
+}
+
+.phone-img{
+    max-width: 100%;
+}
+
+.phone-img > img{
+    max-width: 100%;
+}
+
+.card-highlights h2{
+    font-size: 2.5rem;
 }
 
                      /* Tablet */
@@ -61,7 +74,30 @@ header{
     .highlights .col:first-child{
         max-width: calc( (100% / 3) * 2);
     }
-}                     
+
+    .phone-img > img{
+        max-width: 50%;
+        align-items: flex-start;
+    }
+
+}   
+
+/* Desktop */
+@media screen and ( min-width: 992px){
+    
+    .text-highlights{
+        max-width: 60%;
+        padding-right: 1.25rem ;
+    }
+
+    .phone-img{
+        max-width: 40%;
+    }
+
+    .phone-img > img{
+        max-width: 100%;
+    }
+}
 /* -- /highlights -- */
 
 /* -- Strategic -- */

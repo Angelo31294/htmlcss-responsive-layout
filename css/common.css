@@ -58,15 +58,62 @@ a{
 /* ------------
     TYPO
 -------------*/
-.p-right-30{
-    padding-right: 1.875rem;
+.color-1st{
+    color: var(--1st-color);
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* ------------
     BUTTON
 -------------*/
-.btn-nav{
+.btn{
     border-radius: 1.25rem;
     border-style: none;
+}
+.btn-nav{
     padding: .3125rem .625rem;
+}
+
+.btn-highlights{
+    width: 50%;
+    background-color: var(--1st-color);
+    color: #fff;
+    padding: .625rem 0;
+}
+
+/* ------------
+    BORDER
+-------------*/
+.border-radius-25{
+    border-radius: 1.5625rem;
+}
+
+/* ------------
+    PADDING
+-------------*/
+.p-right-30{
+    padding-right: 1.875rem;
+}
+
+.p-left-30{
+    padding-left: 1.875rem;
+}
+
+.p-top-20{
+    padding-top: 1.25rem;
+}
+
+.p-bottom-20{
+    padding-bottom: 1.25rem;
+}
+
+/* ------------
+    MARGIN
+-------------*/
+
+.m-20{
+    margin: 1.25rem;
 }
