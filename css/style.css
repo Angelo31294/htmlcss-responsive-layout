@@ -127,16 +127,21 @@ header{
     max-width: 100%;
 }
 
-.col-strategic{
+.col-strategic-right{
     background-color: #fff;
     color: #000;
 }
 
 /* Desktop */
 @media screen and ( min-width: 992px){
-    .strategic .col{
-        max-width: 50%;
+    .col-strategic-left{
+        max-width: 65%;
     }
+
+    .col-strategic-right{
+        max-width: 35%;
+    }
+ 
 }
 /* -- /Strategic -- */
 
