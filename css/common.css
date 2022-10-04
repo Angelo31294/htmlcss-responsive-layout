@@ -16,6 +16,11 @@ section{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .col{
     padding-left: .625rem;
     padding-right: .625rem;
@@ -44,4 +49,24 @@ section{
 
 .items-end{
     align-items: flex-end;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/* ------------
+    TYPO
+-------------*/
+.p-right-30{
+    padding-right: 1.875rem;
+}
+
+/* ------------
+    BUTTON
+-------------*/
+.btn-nav{
+    border-radius: 1.25rem;
+    border-style: none;
+    padding: .3125rem .625rem;
 }
