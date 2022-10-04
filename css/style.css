@@ -294,6 +294,16 @@ header{
 .footer-top{
     background-color: var(--3dr-color);
     text-align: center;
+    color: #fff;
+}
+
+.footer-top h2{
+    font-size: 50px;
+    color: var(--4th-color);
+    
+}
+.footer-top h3{
+    font-size: 30px;   
 }
 
 .footer-bottom{

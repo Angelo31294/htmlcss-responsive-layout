@@ -21,6 +21,10 @@ a{
     color: #fff;
 }
 
+.decoration-line{
+    text-decoration: underline;
+}
+
 .col{
     padding-left: .625rem;
     padding-right: .625rem;
@@ -60,6 +64,10 @@ a{
 -------------*/
 .color-1st{
     color: var(--1st-color);
+}
+
+.color-3rd{
+    color: var(--3dr-color);
 }
 
 .text-center{
@@ -111,6 +119,12 @@ a{
     background-color: var(--3dr-color);
     color: #fff;
     padding: .625rem .9375rem;
+}
+
+.btn-footer{
+    color: var(--3dr-color);
+    padding: .9375rem 1.5625rem;
+    border-radius: 2.1875rem;
 }
 
 /* ------------
