@@ -107,6 +107,12 @@ a{
     border-radius: 35px;
 }
 
+.btn-about-us{
+    background-color: var(--3dr-color);
+    color: #fff;
+    padding: .625rem .9375rem;
+}
+
 /* ------------
     BORDER
 -------------*/
@@ -146,5 +152,5 @@ a{
 -------------*/
 
 .m-20{
-    margin: 1.25rem;
+    margin: 0 1.25rem;
 }
