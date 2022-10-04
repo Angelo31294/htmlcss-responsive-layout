@@ -100,6 +100,13 @@ a{
     font-size: larger;
 }
 
+.btn-benefit{
+    background-color: var(--3dr-color);
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 35px;
+}
+
 /* ------------
     BORDER
 -------------*/
@@ -128,6 +135,10 @@ a{
 
 .p-bottom-20{
     padding-bottom: 1.25rem;
+}
+
+.p-20{
+    padding: 1.25rem;
 }
 
 /* ------------
