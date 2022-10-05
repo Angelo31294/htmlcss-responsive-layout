@@ -255,13 +255,14 @@ header{
 }
 
 .img-circle-2{
+    display: inline-block;
     position: relative;
 }
 
 .marks{
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 9.375rem;
     color: var(--3dr-color);
     font-size: 3.125rem;
 }
@@ -281,17 +282,8 @@ header{
         max-width: calc(40% - 2.5rem);
     }
 
-    .marks{
-        left: 60%;
-    }
 }
 
-/* Desktop */
-@media screen and ( min-width: 992px){
-    .marks{
-        left: 40%;
-    }
-}
 /* -- /About Us -- */
 
 /* ------------
